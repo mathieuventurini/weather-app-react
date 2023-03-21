@@ -1,0 +1,60 @@
+@media screen and (max-width: 300px){
+
+    .card-container{
+
+        width: 270px;
+    }
+
+    .weather-information{
+
+        width: 250px;
+    }
+
+    .weather-next-hours{
+
+        overflow-x: scroll;
+        width: 200px;
+        padding-left: 70px;
+
+    }
+
+    #img-hours{
+
+        width: 25px;
+
+    }
+    
+    
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    .card-container{
+
+        width: 350px;
+    }
+
+    .weather-information{
+
+        width: 280px;
+    }
+    
+    .weather-next-hours{
+
+        overflow-x: scroll;
+        width: 280px;
+        padding-left: 70px;
+
+    }
+
+    #img-hours{
+
+        width: 25px;
+
+    }
+    
+    
+
+}

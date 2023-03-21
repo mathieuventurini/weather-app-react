@@ -1,0 +1,51 @@
+
+.weather-next-hours{
+
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    
+
+}
+
+.weather-next-hours li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    font-family: 'Tilt Neon', cursive;
+    border-right: solid 1px black;
+    
+}
+
+.weather-next-hours li:last-child{
+    border-right: none;
+}
+
+.weather-next-hours li span{
+
+    margin-bottom: 3px;
+    font-size: 0.95rem;
+}
+
+#img-hours{
+
+    width: 35px;
+
+}
+
+.future-temp{
+
+    font-family: 'Tilt Warp', cursive;
+    font-size: 0.95rem;
+    margin-top: 4px;
+
+}
+
+
+
+
