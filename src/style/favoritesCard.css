@@ -1,0 +1,302 @@
+.card-favorite{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Tilt Warp', cursive;
+    margin-top: 12px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: solid 2px rgba(0, 0, 0, 0.837);
+    transition: 0.2s ease-in-out;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.847);
+  }
+
+  .accordion-top{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    cursor: pointer;
+    transform: translateY(7px);
+  }
+
+  .today-hour-fav{
+
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 0, 0, 0.814);
+  }
+
+  .weather-info-title{
+  
+    font-size: 1.4rem;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(254, 120, 43);
+    position: absolute;
+    left: 10px;
+  }
+  
+  .weather-info-fav{
+
+    display: flex;
+    align-items: center;
+    padding: 0 8px 0 8px;
+    margin-left: 295px;
+ 
+  }
+  
+  .weather-main-fav{
+  
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .weather-main-fav div{
+
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  
+  .weather-main-temp-fav{
+  
+    display: flex;
+    align-items: center;
+  
+
+  }
+
+#weather-temp-fav{
+
+  font-family: 'Tilt Prism', cursive;
+  font-size: 1.9rem;
+  right: 8px;
+
+}
+  
+
+#weather-logo-fav img{
+
+  width: 50px;
+  margin-right: 10px;
+
+}
+
+/* .today-date-fav{
+
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+
+} */
+
+.accordion-collapse{
+
+  max-height: 0;
+  transition: 0.2s;
+  transform: translateY(5px);
+  padding-bottom: 15px;
+}
+
+#delete-btn{
+
+  position: absolute;
+  border-radius: 50%;
+  height: 1.4rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  top: -10px;
+  right: 0;
+  cursor: pointer;
+
+}
+
+
+  /* // Card Activation */
+
+  .card-favorite.active{
+
+    max-height: 300px;
+    border: solid 1px black;
+    transition: 2s ease-in-out;
+    flex-direction: column;
+
+  }
+
+  .weather-info-fav.active{
+
+    flex-direction: column;
+  }
+
+/* DARK MODE */
+
+.container.dark-mode{
+
+  color: rgba(252, 237, 218, 0.926);
+  background: rgb(35, 44, 171);
+  transition: 0.2s ease-in-out;
+
+}
+
+.header.dark-mode{
+
+  color: rgba(252, 237, 218, 0.926);
+}
+
+
+.today-hour-fav.dark-mode{
+
+  color: rgba(252, 237, 218, 0.926);
+}
+
+
+.weather-info.dark-mode h2{
+
+  color: rgb(255, 176, 130);
+  
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 300px){
+
+  .card-favorite{
+
+    width: 270px;
+
+  }
+
+  .card-container-fav{
+
+    margin-top: 15px;
+  }
+
+  .accordion-top{
+
+    width: 260px;
+  }
+
+  #delete-btn{
+
+    top: -10px;
+    right: -9px;
+  }
+
+  .weather-info-title{
+  
+    font-size: 1rem;
+    left: 0px;
+
+
+  }
+
+  .weather-main-fav{
+
+    margin-right: 25px;
+  }
+
+
+}
+
+
+
+
+  @media screen and (min-width: 300px) and (max-width: 500px){
+
+
+    .card-favorite{
+
+      width: 280px;
+
+    }
+
+    .card-container-fav{
+
+      margin-top: 15px;
+    }
+
+    .accordion-top{
+
+      width: 290px;
+    }
+
+    #delete-btn{
+
+      top: -9px;
+      right: 0px;
+    }
+
+    .weather-info-title{
+  
+      font-size: 0.9rem;
+
+    }
+
+    .weather-info-fav{
+
+      display: flex;
+      align-items: center;
+      padding: 0 8px 0 8px;
+      margin-left: 195px;
+   
+    }
+
+    #weather-temp-fav{
+
+      font-size: 1.4rem;
+    }
+
+    .weather-main-temp-fav{
+  
+      margin-right: 15px;  
+  
+    }
+
+    #weather-main-temp-fav{
+
+      font-size: 3rem;
+    }
+
+    #weather-logo-fav img{
+
+      width: 40px;
+      margin-right: 10px;
+    
+    }
+
+    .accordion-collapse{
+
+      width: 280px;
+
+    }
+
+    .accordion-collapse li{
+
+      width: 22px;
+    }
+
+    #hours-hours{
+
+      font-size: 0.7rem;
+    }
+
+
+
+ 
+  }

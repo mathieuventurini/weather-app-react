@@ -1,4 +1,3 @@
-
 .weather-next-hours{
 
     display: flex;
@@ -6,8 +5,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 13px;
+    padding-left: 10px;
+    width: 0.8rem;
     
-
 }
 
 .weather-next-hours li{
@@ -16,10 +16,11 @@
     flex-direction: column;
     align-items: center;
     list-style: none;
-    padding: 5px;
+    padding: 4px;
+    height: 70px;
     font-family: 'Tilt Neon', cursive;
     border-right: solid 1px black;
-    
+  
 }
 
 .weather-next-hours li:last-child{
@@ -28,8 +29,8 @@
 
 .weather-next-hours li span{
 
-    margin-bottom: 3px;
-    font-size: 0.95rem;
+    margin-bottom: 2px;
+    font-size: 0.8rem;
 }
 
 #img-hours{
@@ -48,4 +49,11 @@
 
 
 
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+
+
+
+}
 

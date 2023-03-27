@@ -1,0 +1,142 @@
+@media screen and (max-width: 300px){
+    
+    .header ul {
+        flex-direction: column;
+    }
+
+    .header ul li{
+
+        width: 2rem;
+    }
+
+
+    .container{
+
+        height: 100vh;
+    }
+
+    #inputMessage{
+
+        width: 8rem;
+    }
+
+
+    .content{
+
+        width: 250px;
+    }
+
+    .card-container, .card{
+
+        width: 250px;
+    }
+
+  
+    .weather-information{
+
+        width: 250px;
+        margin-top: 8px;
+    }
+
+    .weather-next-hours{
+
+        overflow-x: scroll;
+        width: 210px;
+        margin-top: 10px;
+        padding-left: 50px;
+
+    }
+
+    #img-hours{
+
+        width: 25px;
+
+    }
+
+    .today-date{
+
+        padding-top: 10px;
+    }
+    
+    
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+
+    .header ul {
+        flex-direction: column;
+        font-size: 0.8rem;
+
+    }
+
+    .header ul li{
+
+        width: 2rem;
+    }
+
+
+    .container{
+
+        height: 100vh;
+   
+    }
+
+
+    .add-btn{
+
+        margin-top: 20px;
+    }
+
+    .content{
+
+        margin-top: 65px;
+        width: 280px;
+    }
+
+    .card{
+
+        width: 290px;
+    }
+
+    .card-container{
+
+        /* width: 350px; */
+
+    }
+
+    .weather-information{
+
+        width: 280px;
+    }
+
+    
+    .weather-next-hours{
+
+    
+        width: 273px;
+        padding-left: 2px;
+    }
+
+    .weather-next-hours li{
+
+        width: 3rem;
+    }
+
+
+    #img-hours{
+
+        width: 24px;
+
+    }
+
+    .weather-next-hours li span{
+
+        margin-bottom: 7px;
+        font-size: 0.7rem;
+    }
+
+
+}

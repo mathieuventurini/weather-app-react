@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './weatherNextHours.css'
-import './mediaQueries.css'
-import './dayNNight.css'
+import './style/home.css';
+import './style/weatherNextHours.css'
+import './style/mediaQueries.css'
+import './style/dayNNight.css'
+import './style/favoritesCard.css'
+import './style/header.css'
 import App from './App';
 
 

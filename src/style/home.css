@@ -1,15 +1,14 @@
 body {
   margin: 0;
-  overflow-y: hidden;
+  overflow-y: auto;
 
 }
 
-
 .container{
   display: flex;
+  min-height: 150vh;
   flex-direction: column;
   align-items: center;
-  height: 300vh;
   background: rgb(250, 242, 223);
   transition: 0.2s ease-in-out;
 
@@ -32,11 +31,47 @@ body {
   transform: translateY(6px);
 }
 
+.add-btn{
+
+  background: rgba(254, 120, 43, 0.593);
+  position: absolute;
+  top: 550px;
+  height: 1.7rem;
+  font-size: 1.2rem;
+  font-family: 'Tilt Neon', cursive;
+  cursor: pointer;
+  border: solid 1px black;
+  border-radius: 30px;
+  color: rgb(250, 242, 223);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.698);
+  padding-bottom: 8px;
+  
+
+}
+
+.content{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: solid 2px black;
+  box-shadow: 1px 9px 9px 2px rgba(0, 0, 0, 0.847);
+  border-radius: 30px;
+  padding: 10px;
+  padding-bottom: 20px;
+  
+
+}
 .card-container{
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  transform: translateY(-20px);
+  height: 300px;
+
 }
 
 
@@ -49,7 +84,7 @@ body {
   font-family: 'Tilt Warp', cursive;
   margin-top: 30px;
   width: 400px;
-  height: 300px;
+  height: 250px;
   border-radius: 10px;
 }
 
@@ -226,3 +261,4 @@ body {
 
   color: rgb(252, 237, 218);
 }
+

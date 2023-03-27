@@ -1,0 +1,57 @@
+.header:first-child {
+
+    position: absolute;
+    top: -10px;
+    left: -38px;
+    font-size: 0.9rem;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.header ul {
+
+    display: flex;
+
+}
+
+.header li{
+
+    list-style-type: none;
+    border-bottom: solid 1px black;
+    height: 20px;
+    width: 65px;
+    padding: 3px;
+    margin: 3px;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.header li:hover{
+
+    background: rgba(254, 120, 43, 0.647);
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+
+.header a{
+
+    text-decoration: none;
+}
+
+.header a:visited{
+
+    text-decoration: none;
+}
+
+
+/* DARK MODE */
+
+.header.dark-mode li{
+
+    color: rgb(252, 237, 218);
+    border-bottom: solid 1px rgb(252, 237, 218);
+}
